@@ -12,7 +12,7 @@ Install Python dependencies using [requirements.txt](requirements.txt).
 2. Run [code_collection/sanitizer.py](code_collection/sanitizer.py) to aggregate and sanitize the output of `collector.py`; this will generate [tables/ime_table.csv](tables/ime_table.csv)
 
 
-### Converting IME table to other formats
+### Converting IME table to dictionaries
 
 The generated dictionaries will be stored in [dictionaries/](dictionaries/).
 
