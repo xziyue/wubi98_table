@@ -1,8 +1,10 @@
-# Building Wubi 98 Table
+# Building Wubi 98 Dictionaries
 
-Install Python dependencies using [requirements.txt](requirements.txt).
+Generated dictionaries are in [dictionaries/](dictionaries/).
 
 ## Procedure
+
+Install Python dependencies using [requirements.txt](requirements.txt).
 
 ### Collecting IME table
 

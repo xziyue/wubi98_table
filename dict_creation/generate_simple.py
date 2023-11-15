@@ -23,3 +23,17 @@ with open(multiple_output, 'w', encoding='utf16') as f:
             assert ' ' not in item, str(gp_df)
         outputs = ' '.join(gp_df.output)
         f.write(f'{gp_key}\t{outputs}\n')
+
+
+
+single_rev_output = my_dir/'..'/'dictionaries'/'wubi98_single_reverse.txt'
+
+# generate single
+with open(single_rev_output, 'w', encoding='utf16') as f:
+    for gp_key, gp_df in table_df.groupby('code'):
+        for item in gp_df.output:
+            assert ' ' not in item, str(gp_df)
+
+        for item in reversed(list(gp_df.output)):
+            f.write(f'{gp_key}\t{item}\n')
+
