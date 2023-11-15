@@ -9,7 +9,7 @@ Install Python dependencies using [requirements.txt](requirements.txt).
 ### Collecting IME table
 
 1. Run [code_collection/collector.py](code_collection/collector.py) to collect input-output mapping table from an IME
-2. Run [code_collection/record_sanitizer.py](code_collection/sanitizer.py) to aggregate and sanitize the output of `collector.py`; this will generate [tables/ime_table.csv](tables/ime_table.csv)
+2. Run [code_collection/sanitizer.py](code_collection/sanitizer.py) to aggregate and sanitize the output of `collector.py`; this will generate [tables/ime_table.csv](tables/ime_table.csv)
 
 
 ### Converting IME table to other formats
