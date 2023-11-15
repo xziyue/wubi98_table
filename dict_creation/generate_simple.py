@@ -12,12 +12,12 @@ single_output = my_dir/'..'/'dictionaries'/'wubi98_single.txt'
 multiple_output = my_dir/'..'/'dictionaries'/'wubi98_multiple.txt'
 
 # generate single
-with open(single_output, 'w', encoding='utf8') as f:
+with open(single_output, 'w', encoding='utf16') as f:
     for ind, row in table_df.iterrows():
         f.write(f'{row.code}\t{row.output}\n')
 
 # generate multiple
-with open(multiple_output, 'w', encoding='utf8') as f:
+with open(multiple_output, 'w', encoding='utf16') as f:
     for gp_key, gp_df in table_df.groupby('code'):
         for item in gp_df.output:
             assert ' ' not in item, str(gp_df)
