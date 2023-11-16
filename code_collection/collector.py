@@ -47,6 +47,8 @@ def key_sender():
                 else:
                     start_pos = None
 
+            skip_keys = False
+
             for num in range(1, 1 + selection_attempt):
 
                 
