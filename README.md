@@ -17,3 +17,9 @@ Install Python dependencies using [requirements.txt](requirements.txt).
 The generated dictionaries will be stored in [dictionaries/](dictionaries/).
 
 - [dict_creation/generate_simple.py]([dict_creation/generate_simple.py): generate simple one mapping per line/multiple mapping per line dictionaries
+
+## Related resources
+
+- <https://github.com/yanhuacuo/98wubi-tables>
+- <https://github.com/arzyu/rime-wubi98>
+- <https://github.com/yanhuacuo/98wubi-squirrel>
