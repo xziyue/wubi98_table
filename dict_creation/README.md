@@ -1,0 +1,2 @@
+- Number of characters: 27272
+- Number of words/phrases: 780209
