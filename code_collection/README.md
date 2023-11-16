@@ -1,1 +1,0 @@
-`wubi98_single.txt` is acquired from <https://github.com/yanhuacuo/98wubi-tables/blob/master/98%E4%BA%94%E7%AC%94%E5%8D%95%E5%AD%97%E8%A1%A8-%E3%80%90%E5%8D%95%E4%B9%89%E3%80%91.txt>; it is used to complete the collected IME table

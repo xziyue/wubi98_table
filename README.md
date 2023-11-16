@@ -23,3 +23,4 @@ The generated dictionaries will be stored in [dictionaries/](dictionaries/).
 - <https://github.com/yanhuacuo/98wubi-tables>
 - <https://github.com/arzyu/rime-wubi98>
 - <https://github.com/yanhuacuo/98wubi-squirrel>
+- <https://github.com/aardio/wubi-lex> (<https://wubi.aardio.com/>)

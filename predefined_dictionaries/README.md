@@ -1,0 +1,1 @@
+Predefined dictionaries are acquired from <https://github.com/yanhuacuo/98wubi-tables>

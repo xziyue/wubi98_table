@@ -33,14 +33,16 @@ for fn in record_files:
                     continue
 
                 if key in ime_table:
-                    assert output == ime_table[key], 'incompatible input-output map'
+                    if output != ime_table[key]:
+                        # just show incompatible items instead of stopping execution
+                        print(f'incompatible input-output: {key} | {ime_table[key]} | {output}')
                 else:
                     ime_table[key] = output
 
 
 # need to merge with single
 single_lut = dict()
-with open(my_dir/'wubi98_single.txt', encoding='utf16') as f:
+with open(my_dir/'..'/'predefined_dictionaries'/'wubi98_single.txt', encoding='utf16') as f:
     for line in f:
         line = line.strip()
         if line:

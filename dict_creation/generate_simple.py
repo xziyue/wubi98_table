@@ -21,7 +21,7 @@ with open(multiple_output, 'w', encoding='utf16') as f:
     for gp_key, gp_df in table_df.groupby('code'):
         for item in gp_df.output:
             assert ' ' not in item, str(gp_df)
-        outputs = ' '.join(gp_df.output)
+        outputs = '\t'.join(gp_df.output)
         f.write(f'{gp_key}\t{outputs}\n')
 
 

@@ -1,2 +1,2 @@
-- Number of characters: 27272
-- Number of words/phrases: 780209
+- Number of characters: 27443
+- Number of words/phrases: 830687
