@@ -16,8 +16,8 @@ Install Python dependencies using [requirements.txt](requirements.txt).
 
 The generated dictionaries will be stored in [dictionaries/](dictionaries/).
 
-- [dict_creation/generate_simple.py]([dict_creation/generate_simple.py): generate simple one mapping per line/multiple mapping per line dictionaries
-- [dict_creation/generate_rime.py]([dict_creation/generate_rime.py): generate RIME dictionary in YAML format
+- [dict_creation/generate_simple.py](dict_creation/generate_simple.py): generate simple one mapping per line/multiple mapping per line dictionaries
+- [dict_creation/generate_rime.py](dict_creation/generate_rime.py): generate RIME dictionary in YAML format
 
 ## Related resources
 
